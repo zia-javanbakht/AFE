@@ -1,0 +1,11 @@
+# Apple files
+.DS_Store
+
+
+# output files of MARC
+*.log
+*.out
+*.pdb
+*.t16
+*.t16.mud
+*.sts

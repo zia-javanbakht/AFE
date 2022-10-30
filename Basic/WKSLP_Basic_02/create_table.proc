@@ -1,0 +1,17 @@
+*new_md_table 1 1 
+*set_md_table_type 1
+eq_plastic_strain
+*table_add
+0 190
+0.005 198
+0.015 209
+0.03 225
+0.05 238
+0.07 242
+0.15 256
+
+*table_fit
+*set_md_table_extrap 1 off
+*edit_table table1
+*edit_table table1 *table_name
+data_points
